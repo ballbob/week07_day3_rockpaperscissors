@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/background" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codeclan.rockpaperscissors.RPSActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/rockButton"
+        android:text="@string/rockButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="rockButtonPressed"
+        android:layout_gravity="center"
+        android:hint="ROCK"
+        android:textSize="60dp"
+        android:background="@color/button"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/paperButton"
+        android:text="@string/paperButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="paperButtonPressed"
+        android:layout_gravity="center"
+        android:hint="PAPER"
+        android:textSize="60dp"
+        android:background="@color/button"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/scissorsButton"
+        android:text="@string/scissorsButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="scissorsButtonPressed"
+        android:layout_gravity="center"
+        android:textSize="60dp"
+        android:background="@color/button"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/lizardButton"
+        android:text="@string/lizardButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="lizardButtonPressed"
+        android:layout_gravity="center"
+        android:textSize="60dp"
+        android:background="@color/button"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/spockButton"
+        android:text="@string/spockButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="spockButtonPressed"
+        android:layout_gravity="center"
+        android:textSize="60dp"
+        android:background="@color/button"
+        android:layout_margin="10dp"
+        />
+</LinearLayout>

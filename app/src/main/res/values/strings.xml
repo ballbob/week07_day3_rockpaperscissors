@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rock, Paper, Scissors, Lizard, Spock!</string>
+    <string name="rockButton">Rock</string>
+    <string name="paperButton">Paper</string>
+    <string name="scissorsButton">Scissors</string>
+    <string name="lizardButton">Lizard</string>
+    <string name="spockButton">Spock</string>
+</resources>
