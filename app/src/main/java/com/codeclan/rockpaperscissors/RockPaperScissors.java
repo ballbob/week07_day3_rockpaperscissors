@@ -44,71 +44,72 @@ public class RockPaperScissors {
     public String play() {
 
         if (playerInput == ROCK && compInput == SCISSORS){
-            return "Player wins!";
+            return "Rock smashes scissors. Player wins!";
         }
         if (playerInput == ROCK && compInput == PAPER){
-            return "Computer wins!";
+            return "Paper traps rock. Computer wins!";
         }
         if (playerInput == ROCK && compInput == LIZARD){
-            return "Player wins!";
+            return "Rock crushes lizard. Player wins!";
         }
         if (playerInput == ROCK && compInput == SPOCK){
-            return "Computer wins!";
+            return "Spock vaporises rock. Computer wins!";
         }
 
+
         if (playerInput == PAPER && compInput == ROCK){
-            return "Player wins!";
+            return "Paper traps rock. Player wins!";
         }
         if (playerInput == PAPER && compInput == SCISSORS){
-            return "Computer wins!";
+            return "Scissors slice paper. Computer wins!";
         }
         if (playerInput == PAPER && compInput == LIZARD){
-            return "Computer wins!";
+            return "Lizard eats paper. Computer wins!";
         }
         if (playerInput == PAPER && compInput == SPOCK){
-            return "Player wins!";
+            return "Spock is, for some reason, weak to paper. Player wins!";
         }
 
 
         if (playerInput == SCISSORS && compInput == ROCK){
-            return "Computer wins!";
+            return "Rock smashes scissors. Computer wins!";
         }
         if (playerInput == SCISSORS && compInput == PAPER){
-            return "Player wins!";
+            return "Scissors slice paper. Player wins!";
         }
         if (playerInput == SCISSORS && compInput == LIZARD){
-            return "Player wins!";
+            return "Scissors decapitate lizard. Player wins!";
         }
         if (playerInput == SCISSORS && compInput == SPOCK){
-            return "Computer wins!";
+            return "Spock smashes scissors. Computer wins!";
         }
 
 
         if (playerInput == LIZARD && compInput == ROCK){
-            return "Computer wins!";
+            return "Rock crushes lizard. Computer wins!";
         }
         if (playerInput == LIZARD && compInput == PAPER){
-            return "Player wins!";
+            return "Lizard eats paper. Player wins!";
         }
         if (playerInput == LIZARD && compInput == SCISSORS){
-            return "Computer wins!";
+            return "Scissors decapitate lizard. Computer wins!";
         }
         if (playerInput == LIZARD && compInput == SPOCK){
-            return "Player wins!";
+            return "Lizard poisons Spock. Player wins!";
         }
 
 
         if (playerInput == SPOCK && compInput == ROCK){
-            return "Player wins!";
+            return "Spock vaporises rock. Player wins!";
         }
         if (playerInput == SPOCK && compInput == PAPER){
-            return "Computer wins!";
+            return "Spock is, for some reason, weak to paper. Computer wins!";
         }
         if (playerInput == SPOCK && compInput == SCISSORS){
-            return "Player wins!";
+            return "Spock smashes scissors. Player wins!";
         }
         if (playerInput == SPOCK && compInput == LIZARD){
-            return "Computer wins!";
+            return "Lizard poisons Spock. Computer wins!";
         }
 
         else {
